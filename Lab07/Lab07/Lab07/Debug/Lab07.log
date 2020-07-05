@@ -1,0 +1,17 @@
+﻿  basic_1_ClassString.cpp
+  basic_2_ClassFstream.cpp
+  basic_3_CharSpace.cpp
+  basic_4_ClassFstream2.cpp
+  lecture1.cpp
+  응용1번.cpp
+  응용2번.cpp
+  응용3번.cpp
+  응용4번.cpp
+  응용5번.cpp
+  코드를 생성하고 있습니다...
+basic_2_ClassFstream.obj : error LNK2005: _main이(가) basic_1_ClassString.obj에 이미 정의되어 있습니다.
+basic_3_CharSpace.obj : error LNK2005: _main이(가) basic_1_ClassString.obj에 이미 정의되어 있습니다.
+basic_4_ClassFstream2.obj : error LNK2005: _main이(가) basic_1_ClassString.obj에 이미 정의되어 있습니다.
+lecture1.obj : error LNK2005: "void __cdecl writeStu(class std::basic_ofstream<char,struct std::char_traits<char> > &,int,int,char)" (?writeStu@@YAXAAV?$basic_ofstream@DU?$char_traits@D@std@@@std@@HHD@Z)이(가) basic_4_ClassFstream2.obj에 이미 정의되어 있습니다.
+lecture1.obj : error LNK2005: _main이(가) basic_1_ClassString.obj에 이미 정의되어 있습니다.
+C:\Users\kjeng\source\repos\Lab07\Debug\Lab07.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
